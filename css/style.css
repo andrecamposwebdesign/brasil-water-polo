@@ -16,7 +16,7 @@ opacity:0.7;}
 .header .row:first-child{margin-top:35px;}
 
 /*Logo*/
-.logo{background-image:url('../img/sprite.png');background-position: 0px -217px;height: 115px;}
+.logo{background-image:url('../img/sprite.png');background-position: 0px 0px;height: 140px;}
 
 /*Call today*/
 .tel .call-today{font-size:24px;}
@@ -29,7 +29,8 @@ ul li{text-decoration:none;display:inline-block;}
 li a{color:#666;font-size:20px;margin-right:20px;font-weight:bold;}
 li:last-child a{margin-right:0;}
 li a:hover{text-decoration:none;border-bottom:3px solid #1a2f4d;}
-.menu{margin: 5px 0 5px;text-align:right;float:right;}
+.menu{margin: 22px 0 15px;text-align:right;float:right;background-color: #f3f3f3;
+padding-top: 10px;border-radius: 15px;box-shadow: 2px 2px 5px #ddd;}
 ul{padding-left:0;}
 
 .botafogo{background-image:url('../img/sprite.png');background-position: -119px -2802px;height:26px;width:26px;}
@@ -41,6 +42,7 @@ ul{padding-left:0;}
 /*HOME*/
 /*Banner*/
 .banner{background-image:url('../img/sprite.png');background-position: 0px -757px;height:240px;display:none;}
+.central-panel{background-color:#fff;height:100%;}
 
 /*Areas*/
 .practice-area{color:#1a2f4d;font-size:22px;}
@@ -50,6 +52,9 @@ ul{padding-left:0;}
 .area-click{cursor:pointer;padding:5px 20px 10px;max-width:177px;}
 .areas:last-child{background-image:none;}
 .practice-area-preview{color:#666;font-size:13px;padding:10px 0;}
+
+.news-foto{background-image:url('../img/sprite.png');background-position: 0px -2998px;height:417px;}
+.news-text{color:#666;}
 
 
 .backgroung-pool{background-image:url('../img/sprite.png');background-position: 0px -1239px;height:417px;}
@@ -65,13 +70,13 @@ ul{padding-left:0;}
 .attorney-profile{color:#666;margin:10px 0;}
 
 /*FOOTER*/
-.logo-trasparent{opacity:0.75;background-image:url('../img/sprite.png');
-background-position: 0px -217px;height: 115px;width:405px;}
+.logo-trasparent{opacity:0.5;background-image:url('../img/sprite.png');
+background-position: 0px 0px;height: 140px;width:405px;}
 .contact{margin:20px 0;}
 .copyright{color:#adbcd1;}
 .especialies{display:none;}
 .footer{background-color:#fff;box-shadow: 1px -5px 5px #ddd;position:relative;width:100%;
-	left:0px;bottom:0px;color:#666;font-size:14px;padding: 30px 0;}
+	left:0px;bottom:0px;color:#666;font-size:14px;padding: 20px 0;}
 
 /*MEDIA QUERY*/
 
@@ -83,8 +88,7 @@ background-position: 0px -217px;height: 115px;width:405px;}
 	.container{width:100%;}
 	.address, .phones{margin-bottom:20px;}
 	.tel{float:left;}
-	.logo{background-position: 0px -1192px;}
-	.logo-trasparent{background-position: 0px -1192px;}
+	
 	li a{font-size:18px;}
 	li{margin-bottom:10px;}
 	.header .row:first-child{margin-top:10px;}
@@ -98,6 +102,5 @@ background-position: 0px -217px;height: 115px;width:405px;}
 
 /* Landscape phones and down */
 @media (max-width: 277px) {
-	.logo{background-position: 0px -1264px;}
-	.logo-trasparent{background-position: 0px -1264px;}
+	
  }
